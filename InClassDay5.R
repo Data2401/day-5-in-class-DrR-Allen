@@ -14,20 +14,38 @@
 
 # Assign your name to a variable called `my_name`
 
+my_name <- 'Rudolph Allen'
+my_name
+
 # Assign the number of pets you have to a variable called `num_pets`
+
+num_pets <- 5
+
 
 # Assign the title of your favorite book as a variable called `favorite_book`
 
+favorite_book <- "The Isis Papers"
+
+
 # Create a variable called `radius`, which is your favorite number
+
+radius <- 7
 
 # Create a variable called `area`, which is the area of a circle with that radius.
 # Use the variable `radius` to calculate this. 
 # Use the built-in constant `pi` for pi.
 
 
+area <- pi * radius^2
+area
+
+
 # Create a boolean variable `too_big` that is set to TRUE if the area is larger than 100
 # Use a relationship operator to do this  (don't just set it to "TRUE")
-# Think: how do you check if it's larger than 10? Assign that to your new variable name. 
+# Think: how do you check if it's larger than 10? Assign that to your new variable name.
+
+too_big <- TRUE
+
 
 
 # Display the variable `my_name`
@@ -40,15 +58,36 @@
 # Create a variable `name_length` that holds how many letters (including spaces)
 # are in your name, using the variable you made above. (use the `nchar()` function)
 
+
+name_length <- nchar(my_name)
+name_length
+
+
+
 # Print the number of letters in your name
 
 # Create a variable `now_doing` that is your name followed by "is programming!" 
 # (use the `paste()` function)
 
+now_doing <- paste(my_name, "is programming! ", sep = " _ ")
+now_doing
+
+
 # Make the `now_doing` variable upper case
+
+toupper(now_doing)
 
 # Pick two of your favorite numbers (between 1 and 100) and assign them to 
 # variables `fav_1` and `fav_2`
+
+
+fav_1 <- 7
+fav_2 <- 5
+
+
+fav_1/sqrt(201)
+fav_2/sqrt(201)
+
 
 # Divide each number by the square root of 201 and save the new value in the
 # original variable
@@ -65,3 +104,4 @@
 # Create a variable `sum_round` that is the sum of the rounded values
 
 # Print out both variables and compare. Are they the same?
+
